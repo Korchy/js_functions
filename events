@@ -1,0 +1,21 @@
+// Redeclaring monitoring events functions for compatibility
+
+function addEventListener(event, element, function) {
+	if (element.addEventListener)  element.addEventListener(event, function, false);
+	else if (element.attachEvent) {
+		element.attachEvent("on"+event, function);
+	}
+	else {
+		element[event] = function;
+	}
+}
+
+function removeEventListener(event, element, function) {
+	if (element.removeEventListener) element.removeEventListener(event, function, false);
+	else if (element.detachEvent) {
+		element.detachEvent("on"+event, function);
+	}
+	else {
+		element[event] = function;
+	}
+}
