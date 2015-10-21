@@ -1,7 +1,8 @@
 # js_functions
 Some helpful functions
 
-<b><u>1. Redeclare EventListening functions for compatibility</u></b>
+1. Redeclare EventListening functions for compatibility
+---
 
 <b>addEventListener(event, element, function);<br>
 removeEventListener(event, element, function);</b><br>
