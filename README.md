@@ -1,7 +1,7 @@
 # js_functions
 Some helpful functions
 
-1. Redeclare EventListening functions for compatibility
+<b><u>1. Redeclare EventListening functions for compatibility</u></b>
 
 <b>addEventListener(event, element, function);<br>
 removeEventListener(event, element, function);</b><br>
@@ -11,3 +11,4 @@ removeEventListener(event, element, function);</b><br>
 function onLoad() {<br>
   addEventListener("change", document.getElementById('elementId'), onElementIdChange);<br>
 }<br>
+&lt;/script&gt;
