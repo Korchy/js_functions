@@ -6,8 +6,8 @@ Some helpful functions
 addEventListener()
 removeEventListener()
 
-<body onload='javascript:onLoad();'>
-<script type="text/javascript">
+&lt;body onload='javascript:onLoad();'&gt;
+&lt;script type="text/javascript"&gt;
 function onLoad() {
   addEventListener("change", document.getElementById('elementId'), onElementIdChange);
 }
